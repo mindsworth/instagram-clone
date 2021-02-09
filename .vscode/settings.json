@@ -1,6 +1,10 @@
 {
     "prettier.requireConfig": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
     "cSpell.words": [
-        "chakra"
+        "chakra",
+        "pinst"
     ]
 }
