@@ -1,15 +1,23 @@
 # Instagram Clone
 
-Circle CI
+## Circle CI
 
 [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/mindsworth/instagram-clone)
 
-Test Coverage
+## Test Coverage
 
-![Coverage lines](https://img.shields.io/badge/Coverage:lines-100-green.svg)
-![Coverage functions](https://img.shields.io/badge/Coverage:functions-100-green.svg)
-![Coverage branches](https://img.shields.io/badge/Coverage:branches-100-green.svg)
-![Coverage statements](https://img.shields.io/badge/Coverage:statements-100-green.svg)
+```markdown
+| Statements                                                                  | Branches                                                         | Functions                                                                  | Lines                                                                  |
+| --------------------------------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| ![Statements](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg) | ![Branches](https://img.shields.io/badge/Coverage-50%25-red.svg) | ![Functions](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg) | ![Lines](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg) |
+```
+
+- The table is **optional**, the only markups that matters are the following:
+
+1. `![Statements]`
+1. `![Branches]`
+1. `![Functions]`
+1. `![Lines]`
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
