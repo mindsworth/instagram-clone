@@ -1,4 +1,13 @@
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=shield)](https://app.circleci.com/pipelines/github/mindsworth/instagram-clone)
+# Instagram Clone
+
+Circle CI
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/mindsworth/instagram-clone)
+
+Test Coverage
+![Coverage lines](https://img.shields.io/badge/Coverage:lines-100-green.svg)
+![Coverage functions](https://img.shields.io/badge/Coverage:functions-100-green.svg)
+![Coverage branches](https://img.shields.io/badge/Coverage:branches-100-green.svg)
+![Coverage statements](https://img.shields.io/badge/Coverage:statements-100-green.svg)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
