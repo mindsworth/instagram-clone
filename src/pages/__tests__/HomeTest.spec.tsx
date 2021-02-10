@@ -10,7 +10,5 @@ test('Check for Getting Started Text', () => {
 
 it('Renders appropriately', () => {
   render(<Home />);
-  expect(
-    screen.getByRole('heading', { name: 'Welcome to Next.js!' })
-  ).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Welcome to Next.js!' })).toBeInTheDocument();
 });
