@@ -1,4 +1,3 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import Home from '../index';
@@ -10,5 +9,7 @@ test('Check for Getting Started Text', () => {
 
 it('Renders appropriately', () => {
   render(<Home />);
-  expect(screen.getByRole('heading', { name: 'Welcome to Next.js!' })).toBeInTheDocument();
+  expect(
+    screen.getByRole('heading', { name: 'Welcome to Next.js!' })
+  ).toBeInTheDocument();
 });
