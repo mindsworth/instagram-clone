@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "__mocks__/fileMock.ts"  ],
+  ],
   "exclude": [
     "node_modules"
   ]

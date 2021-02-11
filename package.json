@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
     "postinstall": "husky install",
-    "test": "jest",
+    "test": "jest src",
+    "test:watch": "npm run test -- --watch",
     "test:coverage": "jest --coverage",
     "make-badges": "istanbul-badges-readme",
     "make-badges-silent": "istanbul-badges-readme --silent"
@@ -20,7 +21,6 @@
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.1.5",
     "framer-motion": "^3.3.0",
-    "fs": "^0.0.1-security",
     "next": "10.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1",
