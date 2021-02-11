@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "__mocks__/fileMock.ts", "jest.config.ts", "jest.setup.js"  ],
   "exclude": [
     "node_modules"
   ]
