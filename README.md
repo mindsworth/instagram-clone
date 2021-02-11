@@ -12,6 +12,10 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Netlify Deployed
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/093c9bb6-ee5a-4c44-a116-256cdc6eb2e5/deploy-status)](https://app.netlify.com/sites/next-instagram-clone/deploys)
+
 ## Getting Started
 
 First, run the development server:
