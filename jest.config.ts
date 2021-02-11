@@ -10,6 +10,10 @@ const config: Config.InitialOptions = {
   moduleNameMapper: {
     '\\.(scss|sass|css)$': 'identity-obj-proxy',
   },
+  transform: {
+    '^.+\\.(js|jsx|ts|tsx)$': '<rootDir>/node_modules/babel-jest',
+    '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
+  },
 };
 
 export default config;

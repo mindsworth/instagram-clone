@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
     "postinstall": "husky install",
-    "test": "jest",
+    "test": "jest src",
+    "test:watch": "npm run test -- --watch",
     "test:coverage": "jest --coverage",
     "make-badges": "istanbul-badges-readme",
     "make-badges-silent": "istanbul-badges-readme --silent"
